@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B56F56B2266EB6100EB6BE6 /* ModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F56A2266EB6100EB6BE6 /* ModelLoader.swift */; };
+		9B6D58A6225784D3005E31FD /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D58A4225784D2005E31FD /* ARViewController.swift */; };
+		9B6D58A7225784D3005E31FD /* smkey.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58A5225784D3005E31FD /* smkey.scnp */; };
+		9B6D58C9225784EB005E31FD /* UFO_A_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58AA225784EB005E31FD /* UFO_A_Normal.jpg */; };
+		9B6D58CA225784EB005E31FD /* UFO_A_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58AB225784EB005E31FD /* UFO_A_Diffuse.jpg */; };
+		9B6D58CB225784EB005E31FD /* UFO_A.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58AC225784EB005E31FD /* UFO_A.dae */; };
+		9B6D58CC225784EB005E31FD /* UFO_F_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58AE225784EB005E31FD /* UFO_F_Normal.jpg */; };
+		9B6D58CD225784EB005E31FD /* UFO_F.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58AF225784EB005E31FD /* UFO_F.dae */; };
+		9B6D58CE225784EB005E31FD /* UFO_F_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58B0225784EB005E31FD /* UFO_F_Diffuse.jpg */; };
+		9B6D58CF225784EB005E31FD /* UFO_Emission.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58B2225784EB005E31FD /* UFO_Emission.png */; };
+		9B6D58D0225784EB005E31FD /* UFO_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58B3225784EB005E31FD /* UFO_Normal.png */; };
+		9B6D58D1225784EB005E31FD /* Alpha_UFO.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58B4225784EB005E31FD /* Alpha_UFO.dae */; };
+		9B6D58D2225784EB005E31FD /* UFO_Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58B5225784EB005E31FD /* UFO_Specular.png */; };
+		9B6D58D3225784EB005E31FD /* UFO_Glossiness.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58B6225784EB005E31FD /* UFO_Glossiness.png */; };
+		9B6D58D4225784EB005E31FD /* UFO_Roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58B7225784EB005E31FD /* UFO_Roughness.png */; };
+		9B6D58D5225784EB005E31FD /* UFO_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58B8225784EB005E31FD /* UFO_Diffuse.png */; };
+		9B6D58D6225784EB005E31FD /* UFO_C_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58BA225784EB005E31FD /* UFO_C_Normal.jpg */; };
+		9B6D58D7225784EB005E31FD /* UFO_C.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58BB225784EB005E31FD /* UFO_C.dae */; };
+		9B6D58D8225784EB005E31FD /* UFO_C_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58BC225784EB005E31FD /* UFO_C_Diffuse.jpg */; };
+		9B6D58D9225784EB005E31FD /* UFO_D_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58BE225784EB005E31FD /* UFO_D_Diffuse.jpg */; };
+		9B6D58DA225784EB005E31FD /* UFO_D_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58BF225784EB005E31FD /* UFO_D_Normal.jpg */; };
+		9B6D58DB225784EB005E31FD /* UFO_D.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58C0225784EB005E31FD /* UFO_D.dae */; };
+		9B6D58DC225784EB005E31FD /* UFO_E_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58C2225784EB005E31FD /* UFO_E_Normal.jpg */; };
+		9B6D58DD225784EB005E31FD /* UFO_E_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58C3225784EB005E31FD /* UFO_E_Diffuse.jpg */; };
+		9B6D58DE225784EB005E31FD /* UFO_E.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58C4225784EB005E31FD /* UFO_E.dae */; };
+		9B6D58DF225784EB005E31FD /* UFO_B_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58C6225784EB005E31FD /* UFO_B_Diffuse.jpg */; };
+		9B6D58E0225784EB005E31FD /* UFO_B.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58C7225784EB005E31FD /* UFO_B.dae */; };
+		9B6D58E1225784EB005E31FD /* UFO_B_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D58C8225784EB005E31FD /* UFO_B_Normal.jpg */; };
+		9BBFD899224B9FAD001388C7 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBFD897224B9FAD001388C7 /* smoke.png */; };
+		9BD118BE22450AAF004A6FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD118BD22450AAF004A6FAB /* AppDelegate.swift */; };
+		9BD118C022450AAF004A6FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD118BF22450AAF004A6FAB /* ViewController.swift */; };
+		9BD118C322450AB0004A6FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD118C122450AB0004A6FAB /* Main.storyboard */; };
+		9BD118C522450AC1004A6FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD118C422450AC1004A6FAB /* Assets.xcassets */; };
+		9BD118C822450AC1004A6FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD118C622450AC1004A6FAB /* LaunchScreen.storyboard */; };
+		9BD118D422450CB3004A6FAB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD118D122450CB3004A6FAB /* art.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B56F56A2266EB6100EB6BE6 /* ModelLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelLoader.swift; sourceTree = "<group>"; };
+		9B6D58A4225784D2005E31FD /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		9B6D58A5225784D3005E31FD /* smkey.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smkey.scnp; sourceTree = "<group>"; };
+		9B6D58AA225784EB005E31FD /* UFO_A_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_A_Normal.jpg; sourceTree = "<group>"; };
+		9B6D58AB225784EB005E31FD /* UFO_A_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_A_Diffuse.jpg; sourceTree = "<group>"; };
+		9B6D58AC225784EB005E31FD /* UFO_A.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_A.dae; sourceTree = "<group>"; };
+		9B6D58AE225784EB005E31FD /* UFO_F_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_F_Normal.jpg; sourceTree = "<group>"; };
+		9B6D58AF225784EB005E31FD /* UFO_F.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_F.dae; sourceTree = "<group>"; };
+		9B6D58B0225784EB005E31FD /* UFO_F_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_F_Diffuse.jpg; sourceTree = "<group>"; };
+		9B6D58B2225784EB005E31FD /* UFO_Emission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Emission.png; sourceTree = "<group>"; };
+		9B6D58B3225784EB005E31FD /* UFO_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Normal.png; sourceTree = "<group>"; };
+		9B6D58B4225784EB005E31FD /* Alpha_UFO.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Alpha_UFO.dae; sourceTree = "<group>"; };
+		9B6D58B5225784EB005E31FD /* UFO_Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Specular.png; sourceTree = "<group>"; };
+		9B6D58B6225784EB005E31FD /* UFO_Glossiness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Glossiness.png; sourceTree = "<group>"; };
+		9B6D58B7225784EB005E31FD /* UFO_Roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Roughness.png; sourceTree = "<group>"; };
+		9B6D58B8225784EB005E31FD /* UFO_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Diffuse.png; sourceTree = "<group>"; };
+		9B6D58BA225784EB005E31FD /* UFO_C_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_C_Normal.jpg; sourceTree = "<group>"; };
+		9B6D58BB225784EB005E31FD /* UFO_C.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_C.dae; sourceTree = "<group>"; };
+		9B6D58BC225784EB005E31FD /* UFO_C_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_C_Diffuse.jpg; sourceTree = "<group>"; };
+		9B6D58BE225784EB005E31FD /* UFO_D_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_D_Diffuse.jpg; sourceTree = "<group>"; };
+		9B6D58BF225784EB005E31FD /* UFO_D_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_D_Normal.jpg; sourceTree = "<group>"; };
+		9B6D58C0225784EB005E31FD /* UFO_D.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_D.dae; sourceTree = "<group>"; };
+		9B6D58C2225784EB005E31FD /* UFO_E_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_E_Normal.jpg; sourceTree = "<group>"; };
+		9B6D58C3225784EB005E31FD /* UFO_E_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_E_Diffuse.jpg; sourceTree = "<group>"; };
+		9B6D58C4225784EB005E31FD /* UFO_E.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_E.dae; sourceTree = "<group>"; };
+		9B6D58C6225784EB005E31FD /* UFO_B_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_B_Diffuse.jpg; sourceTree = "<group>"; };
+		9B6D58C7225784EB005E31FD /* UFO_B.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_B.dae; sourceTree = "<group>"; };
+		9B6D58C8225784EB005E31FD /* UFO_B_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_B_Normal.jpg; sourceTree = "<group>"; };
+		9BBFD897224B9FAD001388C7 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		9BD118BA22450AAF004A6FAB /* SpaceCraftController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceCraftController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD118BD22450AAF004A6FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BD118BF22450AAF004A6FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BD118C222450AB0004A6FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD118C422450AC1004A6FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD118C722450AC1004A6FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BD118C922450AC1004A6FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD118D122450CB3004A6FAB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD118B722450AAF004A6FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6D58A8225784EB005E31FD /* UFO */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58A9225784EB005E31FD /* UFO_A */,
+				9B6D58AD225784EB005E31FD /* UFO_F */,
+				9B6D58B1225784EB005E31FD /* Alpha_UFO */,
+				9B6D58B9225784EB005E31FD /* UFO_C */,
+				9B6D58BD225784EB005E31FD /* UFO_D */,
+				9B6D58C1225784EB005E31FD /* UFO_E */,
+				9B6D58C5225784EB005E31FD /* UFO_B */,
+			);
+			path = UFO;
+			sourceTree = "<group>";
+		};
+		9B6D58A9225784EB005E31FD /* UFO_A */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58AA225784EB005E31FD /* UFO_A_Normal.jpg */,
+				9B6D58AB225784EB005E31FD /* UFO_A_Diffuse.jpg */,
+				9B6D58AC225784EB005E31FD /* UFO_A.dae */,
+			);
+			path = UFO_A;
+			sourceTree = "<group>";
+		};
+		9B6D58AD225784EB005E31FD /* UFO_F */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58AE225784EB005E31FD /* UFO_F_Normal.jpg */,
+				9B6D58AF225784EB005E31FD /* UFO_F.dae */,
+				9B6D58B0225784EB005E31FD /* UFO_F_Diffuse.jpg */,
+			);
+			path = UFO_F;
+			sourceTree = "<group>";
+		};
+		9B6D58B1225784EB005E31FD /* Alpha_UFO */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58B2225784EB005E31FD /* UFO_Emission.png */,
+				9B6D58B3225784EB005E31FD /* UFO_Normal.png */,
+				9B6D58B4225784EB005E31FD /* Alpha_UFO.dae */,
+				9B6D58B5225784EB005E31FD /* UFO_Specular.png */,
+				9B6D58B6225784EB005E31FD /* UFO_Glossiness.png */,
+				9B6D58B7225784EB005E31FD /* UFO_Roughness.png */,
+				9B6D58B8225784EB005E31FD /* UFO_Diffuse.png */,
+			);
+			path = Alpha_UFO;
+			sourceTree = "<group>";
+		};
+		9B6D58B9225784EB005E31FD /* UFO_C */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58BA225784EB005E31FD /* UFO_C_Normal.jpg */,
+				9B6D58BB225784EB005E31FD /* UFO_C.dae */,
+				9B6D58BC225784EB005E31FD /* UFO_C_Diffuse.jpg */,
+			);
+			path = UFO_C;
+			sourceTree = "<group>";
+		};
+		9B6D58BD225784EB005E31FD /* UFO_D */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58BE225784EB005E31FD /* UFO_D_Diffuse.jpg */,
+				9B6D58BF225784EB005E31FD /* UFO_D_Normal.jpg */,
+				9B6D58C0225784EB005E31FD /* UFO_D.dae */,
+			);
+			path = UFO_D;
+			sourceTree = "<group>";
+		};
+		9B6D58C1225784EB005E31FD /* UFO_E */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58C2225784EB005E31FD /* UFO_E_Normal.jpg */,
+				9B6D58C3225784EB005E31FD /* UFO_E_Diffuse.jpg */,
+				9B6D58C4225784EB005E31FD /* UFO_E.dae */,
+			);
+			path = UFO_E;
+			sourceTree = "<group>";
+		};
+		9B6D58C5225784EB005E31FD /* UFO_B */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58C6225784EB005E31FD /* UFO_B_Diffuse.jpg */,
+				9B6D58C7225784EB005E31FD /* UFO_B.dae */,
+				9B6D58C8225784EB005E31FD /* UFO_B_Normal.jpg */,
+			);
+			path = UFO_B;
+			sourceTree = "<group>";
+		};
+		9BD118B122450AAF004A6FAB = {
+			isa = PBXGroup;
+			children = (
+				9BD118BC22450AAF004A6FAB /* SpaceCraftController */,
+				9BD118BB22450AAF004A6FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD118BB22450AAF004A6FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD118BA22450AAF004A6FAB /* SpaceCraftController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD118BC22450AAF004A6FAB /* SpaceCraftController */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D58A8225784EB005E31FD /* UFO */,
+				9BD118BD22450AAF004A6FAB /* AppDelegate.swift */,
+				9BD118BF22450AAF004A6FAB /* ViewController.swift */,
+				9BD118C122450AB0004A6FAB /* Main.storyboard */,
+				9BD118D122450CB3004A6FAB /* art.scnassets */,
+				9BD118C422450AC1004A6FAB /* Assets.xcassets */,
+				9BBFD897224B9FAD001388C7 /* smoke.png */,
+				9BD118C622450AC1004A6FAB /* LaunchScreen.storyboard */,
+				9B6D58A4225784D2005E31FD /* ARViewController.swift */,
+				9B56F56A2266EB6100EB6BE6 /* ModelLoader.swift */,
+				9B6D58A5225784D3005E31FD /* smkey.scnp */,
+				9BD118C922450AC1004A6FAB /* Info.plist */,
+			);
+			path = SpaceCraftController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD118B922450AAF004A6FAB /* SpaceCraftController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD118CC22450AC1004A6FAB /* Build configuration list for PBXNativeTarget "SpaceCraftController" */;
+			buildPhases = (
+				9BD118B622450AAF004A6FAB /* Sources */,
+				9BD118B722450AAF004A6FAB /* Frameworks */,
+				9BD118B822450AAF004A6FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceCraftController;
+			productName = SpaceCraftController;
+			productReference = 9BD118BA22450AAF004A6FAB /* SpaceCraftController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD118B222450AAF004A6FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = boppo;
+				TargetAttributes = {
+					9BD118B922450AAF004A6FAB = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 9BD118B522450AAF004A6FAB /* Build configuration list for PBXProject "SpaceCraftController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD118B122450AAF004A6FAB;
+			productRefGroup = 9BD118BB22450AAF004A6FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD118B922450AAF004A6FAB /* SpaceCraftController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD118B822450AAF004A6FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D58D9225784EB005E31FD /* UFO_D_Diffuse.jpg in Resources */,
+				9B6D58D1225784EB005E31FD /* Alpha_UFO.dae in Resources */,
+				9BD118C822450AC1004A6FAB /* LaunchScreen.storyboard in Resources */,
+				9B6D58A7225784D3005E31FD /* smkey.scnp in Resources */,
+				9B6D58DA225784EB005E31FD /* UFO_D_Normal.jpg in Resources */,
+				9B6D58CB225784EB005E31FD /* UFO_A.dae in Resources */,
+				9B6D58D0225784EB005E31FD /* UFO_Normal.png in Resources */,
+				9B6D58DD225784EB005E31FD /* UFO_E_Diffuse.jpg in Resources */,
+				9B6D58E1225784EB005E31FD /* UFO_B_Normal.jpg in Resources */,
+				9B6D58D4225784EB005E31FD /* UFO_Roughness.png in Resources */,
+				9BD118D422450CB3004A6FAB /* art.scnassets in Resources */,
+				9B6D58D8225784EB005E31FD /* UFO_C_Diffuse.jpg in Resources */,
+				9B6D58D3225784EB005E31FD /* UFO_Glossiness.png in Resources */,
+				9BD118C522450AC1004A6FAB /* Assets.xcassets in Resources */,
+				9BD118C322450AB0004A6FAB /* Main.storyboard in Resources */,
+				9B6D58CF225784EB005E31FD /* UFO_Emission.png in Resources */,
+				9B6D58DF225784EB005E31FD /* UFO_B_Diffuse.jpg in Resources */,
+				9B6D58DE225784EB005E31FD /* UFO_E.dae in Resources */,
+				9B6D58D6225784EB005E31FD /* UFO_C_Normal.jpg in Resources */,
+				9B6D58CD225784EB005E31FD /* UFO_F.dae in Resources */,
+				9B6D58D5225784EB005E31FD /* UFO_Diffuse.png in Resources */,
+				9B6D58D7225784EB005E31FD /* UFO_C.dae in Resources */,
+				9B6D58CC225784EB005E31FD /* UFO_F_Normal.jpg in Resources */,
+				9B6D58D2225784EB005E31FD /* UFO_Specular.png in Resources */,
+				9B6D58CE225784EB005E31FD /* UFO_F_Diffuse.jpg in Resources */,
+				9B6D58DC225784EB005E31FD /* UFO_E_Normal.jpg in Resources */,
+				9BBFD899224B9FAD001388C7 /* smoke.png in Resources */,
+				9B6D58E0225784EB005E31FD /* UFO_B.dae in Resources */,
+				9B6D58DB225784EB005E31FD /* UFO_D.dae in Resources */,
+				9B6D58C9225784EB005E31FD /* UFO_A_Normal.jpg in Resources */,
+				9B6D58CA225784EB005E31FD /* UFO_A_Diffuse.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD118B622450AAF004A6FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B56F56B2266EB6100EB6BE6 /* ModelLoader.swift in Sources */,
+				9BD118C022450AAF004A6FAB /* ViewController.swift in Sources */,
+				9BD118BE22450AAF004A6FAB /* AppDelegate.swift in Sources */,
+				9B6D58A6225784D3005E31FD /* ARViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BD118C122450AB0004A6FAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD118C222450AB0004A6FAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BD118C622450AC1004A6FAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD118C722450AC1004A6FAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD118CA22450AC1004A6FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BD118CB22450AC1004A6FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD118CD22450AC1004A6FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46VFTMYGW3;
+				INFOPLIST_FILE = SpaceCraftController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boppo.SpaceCraftController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BD118CE22450AC1004A6FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46VFTMYGW3;
+				INFOPLIST_FILE = SpaceCraftController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boppo.SpaceCraftController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD118B522450AAF004A6FAB /* Build configuration list for PBXProject "SpaceCraftController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD118CA22450AC1004A6FAB /* Debug */,
+				9BD118CB22450AC1004A6FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD118CC22450AC1004A6FAB /* Build configuration list for PBXNativeTarget "SpaceCraftController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD118CD22450AC1004A6FAB /* Debug */,
+				9BD118CE22450AC1004A6FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD118B222450AAF004A6FAB /* Project object */;
+}
